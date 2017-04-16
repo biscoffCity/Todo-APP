@@ -13,6 +13,11 @@ var todoSchema = new mongoose.Schema({
 var Todo = mongoose.model('Todo', todoSchema);
 
 
+/*******************************
+
+******** MODULE EXPORT *********
+
+*******************************/
 
 module.exports = function(app){
 
